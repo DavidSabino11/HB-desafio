@@ -14,7 +14,6 @@ const Characters = () => {
     async function getCharacters(): Promise<void> {
       try {
         const response = await api.get(`characters?${authKey}`);
-        console.log(response)
         setCharacterList(response.data.data.results);
       } catch (err) {
         console.log(err);
