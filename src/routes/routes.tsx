@@ -1,16 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Characters from '../componets/Characters';
+import Comics from '../componets/Comics'
 
-function RoutesMain() {
-    return (
-        <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Characters></Characters>} />
-            <Route path="/characters" element={<Characters></Characters>} />
-        </Routes>
-        </BrowserRouter>
-    );
-}
+const RoutesMain = () => (
+    <Routes>
+        <Route path='/' element={<Characters></Characters>} />
+        <Route path='/characters' element={<Characters></Characters>} />
+        <Route path='/comics' element={<Comics></Comics>}/>
+    </Routes>
+);
 export default RoutesMain;

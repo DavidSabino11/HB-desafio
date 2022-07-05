@@ -12,14 +12,54 @@
 .header {
     height: 80px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
     font-family: 'Bebas-Regular', sans-serif;
     background-color: #ED1D24;
     color: white;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+a {text-decoration: none;}
+
+ul {
+  padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  list-style: none;
+}
+
+nav {
+  font-size: 0;
+  position:absolute;
+  margin-left: 50%;
+}
+
+nav > ul > li {
+  display: inline-block;
+    font-size: 20px;
+    padding: 0 10px;
+    position: relative;
+}
+
+nav > ul > li > .link {
+  color: #fff;
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease;
+    width: 150px;
+    justify-content: center;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+
+nav > ul > li:hover > .link {
+  color: #ED1D24;
+  background-color: white;
+  align-items: center;
 }
 
 .cardHero {
@@ -71,6 +111,30 @@
     justify-content: center;
     display: flex;
     margin: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.heroComic {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 12px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.heroComicDesc {
+    font-size: 12px;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
     font-family: sans-serif;
     color: white;
 }

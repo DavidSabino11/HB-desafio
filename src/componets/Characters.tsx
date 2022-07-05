@@ -50,9 +50,9 @@ const Characters = () => {
               </div>
               <h2 className='heroName'>{character.name}</h2>
               <p className='heroDesc'>{character.description}</p>
-              {character.comics.items.length > 0 ? <h3 className='heroDesc'>Comics: </h3> : ''}
+              {character.comics.items.length > 0 ? <h3 className='heroComic'>Comic book presentations: </h3> : ''}
               {character.comics.items.map((comic) => (
-                <p className='heroDesc' key={comic.name}>{comic.name}</p>
+                <p className='heroComicDesc' key={comic.name}>{comic.name}</p>
               ))}
             </div>
 
