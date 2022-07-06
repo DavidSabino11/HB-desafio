@@ -109,7 +109,6 @@ nav > ul > li:hover > .link {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
-    align-items: center;
     justify-content: center;
     display: flex;
     margin: 20px;
@@ -128,8 +127,6 @@ nav > ul > li:hover > .link {
 .heroDesc {
     font-size: 14px;
     letter-spacing: 2px;
-    align-items: center;
-    justify-content: center;
     display: flex;
     margin: 10px;
     font-family: sans-serif;
@@ -140,10 +137,8 @@ nav > ul > li:hover > .link {
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;
-    align-items: center;
     justify-content: center;
     display: flex;
-    margin: 12px;
     margin-bottom: 20px;
     font-family: sans-serif;
     color: white;
@@ -152,8 +147,6 @@ nav > ul > li:hover > .link {
 .heroComicDesc {
     font-size: 12px;
     letter-spacing: 2px;
-    align-items: center;
-    justify-content: center;
     display: flex;
     margin: 15px;
     font-family: sans-serif;

@@ -31,6 +31,7 @@ const Comics = () => {
         <label
           htmlFor="input">
           <datalist id="marvelsearch">
+            <option>Secret War</option>
             <option>Captain America</option>
             <option>Doctor Strange</option>
             <option>Falcon</option>
