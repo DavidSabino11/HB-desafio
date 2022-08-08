@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HB-desafio/static/css/main.ac3f11fd.css",
+    "main.js": "/HB-desafio/static/js/main.9af00f10.js",
+    "static/media/Bebas-Regular.ttf": "/HB-desafio/static/media/Bebas-Regular.90dabffdfc7cafc45f81.ttf",
+    "index.html": "/HB-desafio/index.html",
+    "main.ac3f11fd.css.map": "/HB-desafio/static/css/main.ac3f11fd.css.map",
+    "main.9af00f10.js.map": "/HB-desafio/static/js/main.9af00f10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac3f11fd.css",
+    "static/js/main.9af00f10.js"
+  ]
+}
