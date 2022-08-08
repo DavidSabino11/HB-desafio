@@ -2,6 +2,7 @@
   "name": "desafio-marvel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://DavidSabino11.github.io/HB-desafio",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -12,6 +13,7 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "md5": "^2.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
